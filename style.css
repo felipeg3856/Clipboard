@@ -287,4 +287,23 @@ main {
         width: 350px;
 
     }
+    .fifty{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.item-produti img{
+    display: block;
+    height: 40px;
+    width: auto;
+    margin: 0 auto 28px;
+}
+.recursos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 72px;
+}
+footer{
+    background-color: rgb(236, 236, 236);
+}
 }
