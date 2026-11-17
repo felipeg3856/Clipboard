@@ -10,14 +10,17 @@ body {
     /*padding: 128px 28px 56px;*/
 }
 
-.hero h1, p{
-display: flex;
-justify-content: center;
+.hero h1,
+p {
+    display: flex;
+    justify-content: center;
 }
-.hero h1{
+
+.hero h1 {
     margin-top: 56px;
 }
-.hero p{
+
+.hero p {
     margin-top: 16px;
 }
 
@@ -102,7 +105,8 @@ main {
     margin-top: 172px;
 }
 
-.text h3, p {
+.text h3,
+p {
     text-align: center;
     margin-top: 56px;
 }
@@ -145,14 +149,50 @@ main {
 }
 
 .logo {
-    display: flex;
-    margin-top: 278px;
+    display: block;
+
 }
 
 .img2 {
     margin-top: 32px;
     margin-block-end: 55.5px;
     display: flex;
+}
+
+footer {
+    background-color: #f5f7f7;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+footer *{
+    padding: 8px;
+}
+footer img{
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #4c545c;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0, 5px;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
 }
 
 /*mobile*/
@@ -228,6 +268,19 @@ main {
 
 /*Desktop*/
 @media (min-width: 1024px) {
+    footer{
+        display: flex;
+    }
+    .footer-nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0;
+        text-align: left;
+    }
+    li{
+        margin: 0;
+    }
     main {
         height: 70vh;
     }
@@ -287,23 +340,23 @@ main {
         width: 350px;
 
     }
-    .fifty{
+
+    .fifty {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-.item-produti img{
-    display: block;
-    height: 40px;
-    width: auto;
-    margin: 0 auto 28px;
-}
-.recursos{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 72px;
-}
-footer{
-    background-color: rgb(236, 236, 236);
-}
+
+    .item-produti img {
+        display: block;
+        height: 40px;
+        width: auto;
+        margin: 0 auto 28px;
+    }
+
+    .recursos {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 72px;
+    }
 }
