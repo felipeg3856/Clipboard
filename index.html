@@ -1,54 +1,116 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLIPBOARD</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLIPBOARD</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <main class="geral">
-        <img src="MOBILE/logomobile.png" alt="Clipboard" WIDTH="125" HEIGHT="125">
-        <h1 class="text-preset1">A history of everything you copy</h1>
-        <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-       <section class="btn">
-            <button class="btnios">Download for iOS</button>
-            <button class="btnmac">Download for Mac</button>
-        </section>
-    </main>
+  <main>
+    <img src="MOBILE/logomobile.png" alt="Clipboard" WIDTH="125" HEIGHT="125">
+    <section class="hero">
+      <h1 class="text-preset4">A history of everything you copy</h1>
+      <p class="text-preset8">Clipboard allows you to track and organize everything you copy. Instantly access your
+        clipboard on all your devices.</p>
+      <section class="btn">
+        <button class="btnios">Download for iOS</button>
+        <button class="btnmac">Download for Mac</button>
+      </section>
+    </section>
+  </main>
   <section class="second">
-<h2>Keep track of your snippets</h2>
-<p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
-<img src="MOBILE/PcMobile.png" alt="pc">
-<h3>Quick Search</h3>
-<p>Easily search your snippets by content, category, web address, application, and more.</p>
-<h3>iCloud Sync</h3>
-<p>Instantly saves and syncs snippets across all your devices.</p>
-<h3>Complete History</h3>
-<p>Retrieve any snippets from the first moment you started using the app.</p></section>
+    <h2 class="text-preset5">Keep track of your snippets</h2>
+    <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on
+      all your devices. Our Mac and iOS apps will help you organize everything.</p>
+    <div class="pc">
+      <picture>
+        <!-- Verifica primeiro se é menor que 600px -->
+        <source media="(max-width: 600px)" srcset="MOBILE/PcMobile.png">
+        <!-- Se não for, verifica se é menor que 1000px -->
+        <source media="(max-width: 1000px)" srcset="TABLET/pcTablet.png">
+        <img src="DESKTOP/DESKTOPPC.png" alt="Exemplo">
+      </picture>
+      <!-- 
+      <picture>
+        <source media="(max-width: 500px)" srcset="MOBILE/PcMobile.png">
+        <source media="(max-width: 1024px)" srcset="TABLET/pcTablet.png">
+        <source media="(min-width: 1024px)" srcset="DESKTOP/DESKTOPPC.png">
+        <img src="DESKTOP/DESKTOPPC.png" alt="">
+      </picture> -->
+      <div class="text">
+      <h3>Quick Search</h3>
+      <p>Easily search your snippets by content, category, web address, application, and more.</p>
+      <h3>iCloud Sync</h3>
+      <p>Instantly saves and syncs snippets across all your devices.</p>
+      <h3>Complete History</h3>
+      <p>Retrieve any snippets from the first moment you started using the app.</p>
+    </div>
+    </div>
+    
+  </section>
   <section class="third">
     <h2>Access Clipboard Anywhere</h2>
-<p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
-<img src="MOBILE/CellMobile.png" alt="">
-<picture>
-    <source src="MOBILE/CellMobile.png" media="(min-width:1300)">
-    <source src="DESKTOP/TABLCLDESKTOP.png" media="(min-width:500px) and (max-width: 1299px)">
-    <source src="TABLET/cellTablet.png" media="(max-width:500px)">
-</picture>
-<h2>Supercharge your workflow</h2>
-<p>We’ve got the tools to boost your productivity.</p>
-<img src="MOBILE/folha.png" alt="">
-<h3>Create blacklists</h3>
-<p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+    <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.
+    </p>
+    <img src="MOBILE/CellMobile.png" alt="">
+    <picture>
+      <source src="MOBILE/CellMobile.png" media="(min-width:1300)">
+      <source src="DESKTOP/TABLCLDESKTOP.png" media="(min-width:500px) and (max-width: 1299px)">
+      <source src="TABLET/cellTablet.png" media="(max-width:500px)">
+    </picture>
   </section>
-  <section></section>
-  <section></section>
-  <section></section>
-  <section></section>
-  <footer></footer>
-        
+  <section class="four">
+    <h2>Supercharge your workflow</h2>
+    <p>We’ve got the tools to boost your productivity.</p>
+    <img src="MOBILE/folha.png" alt="">
+    <h3>Create blacklists</h3>
+    <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+    <img src="MOBILE/IaMobile.png" alt="">
+    <h3>Plain text snippets</h3>
+    <P>Remove unwanted formatting from copied text for a consistent look.</P>
+    <img src="MOBILE/olhoMobile.png" alt="">
+    <h3>Sneak preview</h3>
+    <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+  </section>
+  <section class="fifty">
+    <img src="MOBILE/Googlemobile.png" alt="">
+    <img src="MOBILE/ibmMobile (2).png" alt="">
+    <img src="MOBILE/microsoftMobile (2).png" alt="">
+    <img src="MOBILE/Object.png" alt="">
+    <img src="MOBILE/vectoMobile.png" alt="">
+  </section>
+  <section class="sixty">
+    <h2>Clipboard for iOS
+      and Mac OS</h2>
+    <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding
+      to your clipboard.</p>
+    <section class="btn">
+      <button class="btnios">Download for iOS</button>
+      <button class="btnmac">Download for Mac</button>
+    </section>
+  </section>
+  <footer>
+    <img class="logo" src="MOBILE/logofooterMobile.png" alt="">
+    <p>FAQs</p>
+    <p>Contact Us</p>
+    <p>Privacy Policy</p>
+    <p>Press Kit</p>
+    <p>Install Guide</p>
+    <section class="img2">
+      <img src="MOBILE/faceMobile.png" alt="">
+      <img src="MOBILE/twitterMobile.png" alt="">
+      <img src="MOBILE/instaMobile.png" alt="">
+    </section>
+  </footer>
+
 </body>
+
 </html>
